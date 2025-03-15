@@ -26,8 +26,8 @@ class Film implements Pelicula {
     }
 }
 
-const pelicula1: Pelicula = new Film("Interstellar", "Christopher Nolan", 2014);
-const pelicula2:Pelicula=new Film("Tynkerbell", "Bradley Raymond");
+const pelicula1: Pelicula = new Film('Interstellar', 'Christopher Nolan', 2014);
+const pelicula2:Pelicula=new Film('Tynkerbell', 'Bradley Raymond');
 pelicula1.info();
 pelicula2.info();
 
